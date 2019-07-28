@@ -1,0 +1,74 @@
+//#551a8b - dark-purple
+//#363c4cb5 - grey-blue
+.header {
+  background-color: #22252d;
+  padding: 10px;
+
+  .logo {
+
+    img {
+      width: 100px;
+    }
+  }
+
+  .menu {
+    font-size: 18px;
+    color: #ffffff;
+
+    ul {
+      display: flex;
+
+      .menu-item {
+
+        a {
+          padding: 10px 15px;
+          color: #bababa;
+          text-decoration: none;
+          transition: color .2s linear;
+
+          &:hover {
+            color: #ffffff;
+            text-decoration: underline;
+          }
+        }
+
+        &.active {
+
+          a {
+            color: #ffffff;
+            text-decoration: none;
+
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+
+        &.colored {
+
+          margin: 0 10px;
+
+          a {
+            border-radius: 5px;
+            background-color: rgba(101, 115, 144, 0.71);
+            color: #ffffff;
+            transition: background-color .2s linear;
+
+            &:hover {
+              text-decoration: none;
+              background-color: #ff8c00;
+              color: #ffffff;
+            }
+          }
+
+          &.active {
+
+            a {
+              background-color: #ff8c00;
+            }
+          }
+        }
+      }
+    }
+  }
+}
