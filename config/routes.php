@@ -3,5 +3,6 @@
 return array(
   '^$' => 'site/index',
   'user/register' => 'user/register',
-  'profile' => 'profile/displayinfo'
+  'profile' => 'profile/displayinfo',
+  'party' => 'party/index',
 );
