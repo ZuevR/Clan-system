@@ -5,4 +5,5 @@ return array(
   'user/register' => 'user/register',
   'profile' => 'profile/displayinfo',
   'party' => 'party/index',
+  'events' => 'events/index',
 );

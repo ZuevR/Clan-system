@@ -17,8 +17,9 @@ class PartyController
     //Party::createParty('consul', 'dauni');
     //Party::sendInvite('consul', 'roma');
     //Party::acceptInvite('roma', 4);
-    Party::changeLeader('consul', 'roma');
-    Party::leaveParty('consul');
+    //Party::changeLeader('consul', 'roma');
+    //Party::leaveParty('consul');
+    echo(Party::getPartyName('slep0v'));
 
   }
 }
